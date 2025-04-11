@@ -5,9 +5,9 @@ body {
     background-color: #e8f0f2; /* Soft light gray-blue */
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 100vh;
-    overflow-x: hidden; /* Prevent horizontal scrolling */
+    align-items: flex-start; /* Center horizontally and align to the top */
+    height: 100%;
+    overflow-y: auto; /* Allow scrolling on the page */
 }
 
 .container {
@@ -21,6 +21,7 @@ body {
     display: flex;
     flex-direction: column;
     box-sizing: border-box; /* Ensure padding doesn't affect the width */
+    margin-top: 20px; /* Add some space from the top of the page */
 }
 
 header {
