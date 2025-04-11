@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e8f0f2; /* Soft light gray-blue */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 21cm; /* A4 size width */
+    min-height: 29.7cm; /* A4 size height */
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #b0bec5; /* Soft shuttle gray-blue */
+    color: #2c3e50; /* Darker text color for better contrast */
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+section {
+    padding: 20px;
+    margin: 10px 0;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #bdc3c7; /* Light gray border */
+}
+
+h1, h2, h3 {
+    color: #34495e; /* Slightly darker for heading text */
+}
+
+h1 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+a {
+    color: #3498db; /* Soft blue for links */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Adding space around each section to make it look more like a form */
+section {
+    margin-top: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #ffffff;
+    border-radius: 8px;
+}
+
+/* Styling for contact details and list items */
+.contact-info ul, .projects ul, .education ul, .skills ul, .certifications ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact-info li, .projects li, .education li, .skills li, .certifications li {
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #b0bec5;
+    color: white;
+    border-radius: 5px;
+}
